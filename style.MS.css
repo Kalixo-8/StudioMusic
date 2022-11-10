@@ -1,0 +1,134 @@
+
+
+
+body{
+    background-color:#c69b7c;
+}
+@import url('https://fonts.googleapis.com/css2? family= Langosta & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Langosta', cursiva;
+    text-align: center;
+
+}
+/*ENCABEZADO*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 25px 0;
+}
+/*TEXTO DE NAVEGACION*/
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1d1003;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    
+}
+
+nav a:hover{
+    background-color: #0000;  
+    color: rgb(19, 213, 109);
+}
+    
+
+nav a:hover{
+    background-color: #0000;
+    color: #ffff;
+}
+
+.encabezado-img{
+     background-image: url(img/imagenDEENCABEZADO.jpg);
+     height: 600px;
+     background-size: cover;
+     display: flex;
+     justify-self: column;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+}
+.encabezado-img p{
+    font-size: 30px;
+    background-color: #c69b7c;
+}
+.encabezado-img h1{
+    font-size:  90px;
+    font-weight: 100px;
+    background-color: #b17c54;
+    padding: 0px 0px;
+    color: white;
+    margin-top: 10%;
+}
+.encabezado2-img{
+    background-image: url(img/mucica.jpeg.jpg);
+    justify-content: center;
+}
+.concepto{
+    text-align: justify;
+    margin: 20%px;
+    
+}
+.text{
+    text-align: justify;
+    text-align: center;
+    margin: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 20px;
+}
+
+/*Tarjetas*/
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #9c9c9c;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25em 0;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0,0.3);
+
+}
+section article h2,section article p{
+    margin:1 rem;
+}
+
+/*TARJETA DE PLATAFROMAS*/
+.container2{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #9c9c9c;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25em 0;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0,0.3);
+
+}
+section article h2,section article p{
+    margin:1 rem;
+}
+
+
+
